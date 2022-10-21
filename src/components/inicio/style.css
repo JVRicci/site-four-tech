@@ -7,23 +7,82 @@
  color: black;
 }
 
+nav{
+ animation: logo 1s;
+ background-color:transparent;
+}
+
+#content{
+  height:  50rem;
+}
+h2{
+ font-size:40px;
+}
 p{
- font-size:2rem;
+ font-size:1.5rem;
 }
 
 
 #logo{
  width: 300px;
  height: 200px;
+ animation: logo 0.5s;
+ 
+ text-shadow: 2px 2px 4px #ffffff;
 }
 
+
+@keyframes logo{
+ from{
+  opacity: 0;
+  margin-top: -100px;
+ }
+ to{
+  opacity: 1;
+  margin-top: 0px;
+ }
+}
+
+
+#title h1{
+ animation: tituloSurgir  2s;
+ text-shadow: 0 2px 0;
+ font-style: bold;
+
+}
+#title p{
+ animation: tituloSurgir  3s;
+
+}
+
+@keyframes tituloSurgir{
+ from{
+  opacity: 0;
+  margin-top: 100px;
+ }
+ to{
+  opacity: 1;
+  margin-top: 0px;
+ }
+}
+
+
 #topo-inf-div{
- /*background-color: #*/
+  background: linear-gradient(red, yellow);
   position: relative;
   width: 100%;
-  height: 390px;
+  height: 100%;
   overflow:hidden;
 }
+#fundo-baixo{
+
+  position: absolute;
+  width: 100%;
+  height: 590px;
+  bottom:-25em;
+  background-color: #955FFF;
+}
+
 #waves{
  position: absolute;
  bottom: -15rem;
@@ -35,7 +94,7 @@ p{
 }
 
 #wave-1{
- animation: wave1 3s .6s ease-in-out  infinite alternate;
+ animation: wave1 7s .6s ease-in-out  infinite alternate;
  width: 200%;
 }
 
@@ -45,7 +104,7 @@ p{
 }
 
 #wave-2{
- animation: wave2 3s .5s ease-in-out  infinite alternate;
+ animation: wave2 7s .5s ease-in-out  infinite alternate;
  width: 200%;
 }
 
@@ -55,7 +114,7 @@ p{
 }
 
 #wave-3{
- animation: wave3 3s ease-in-out  infinite alternate;
+ animation: wave3 7s ease-in-out  infinite alternate;
  width: 200%;
 }
 

@@ -1,32 +1,5 @@
 <template>
-  <div>
-   <nav class="navbar navbar-expand-sm  fixed-top">
-    <a class="navbar-brand" href="#">
-      <img src="@/assets/img/logo.png"  width="50" height="30" class="d-inline-block align-top" alt="">
-    </a>
-
-    <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown" >
-          
-      <ul class="navbar-nav">
-
-        <li class="nav-item active">
-          <a class="nav-link " href="#">Quem somos?</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="#">Projetos</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link " href="#">Contato</a>
-        </li>
-
-      </ul>
-    </div>
-
-    <div class="navbar navbar-expand-sm" id="div-body">  </div>
-
-    </nav>
+  <div id="content">
   
     <div id="title">
       <img src="@/assets/img/logo.png" id="logo" >
@@ -46,6 +19,9 @@
         
       </svg>
 
+    </div>
+    <div id="fundo-baixo">
+      
     </div>
     
   </div>
@@ -67,6 +43,6 @@ import logo from "@/assets/img/logo.png";
 
 </script>
 
-<style>
+<style scoped>
 @import url('style.css');
 </style>
