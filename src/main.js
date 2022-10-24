@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import './bootstrap/css/bootstrap.css'
 import App from './App.vue'
 import VueScrollReveal from 'vue-scroll-reveal';
-//App.use(VueScrollReveal);
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'

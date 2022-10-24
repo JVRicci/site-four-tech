@@ -15,7 +15,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="#">Projetos</a>
+          <a class="nav-link " href="#projetos">Projetos</a>
         </li>
 
         <li class="nav-item">
@@ -28,12 +28,20 @@
     <div class="navbar navbar-expand-sm" id="div-body">  </div>
 
     </nav>
+
     <section id="inicio">
       <inicio/>
     </section>
+
+
     <section id="quem-somos" >
       <quemSomos/>
     </section>
+
+    <section id="projetos">
+      <projetos/>
+    </section>
+    
     
   </div>
   
@@ -42,12 +50,14 @@
 <script>
 import inicio from './components/inicio/inicio.vue'
 import quemSomos from './components/quemSomos/quem-somos.vue'
+import projetos from './components/projetos/projetos.vue';
 
 export default {
   name: 'App',
   components: {
     inicio,
-    quemSomos
+    quemSomos,
+    projetos
   }
 }
 </script>
@@ -55,7 +65,7 @@ export default {
 <style>
 
 #app {
-  font-family: Candara;/* 1*/ 
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -70,4 +80,5 @@ body{
   background: #ff1313;
   height:100%
 }
+
 </style>

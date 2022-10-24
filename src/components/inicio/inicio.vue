@@ -29,20 +29,20 @@
 
 <script>
 
-import logo from "@/assets/img/logo.png";
+  import logo from "@/assets/img/logo.png";
 
-  data: () => ({
-      logo: '../assets/imgs/logo.png'    
-  })
- export default{
-  name:'inicio',
-  image:logo,
-  props:{}
- }
+    data: () => ({
+        logo: '../assets/imgs/logo.png'    
+    })
+  export default{
+    name:'inicio',
+    image:logo,
+    props:{}
+  }
 
 
 </script>
 
 <style scoped>
-@import url('style.css');
+  @import url('style.css');
 </style>

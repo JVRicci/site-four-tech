@@ -3,7 +3,7 @@
   <div class="row justify-content-center">
 
    <div class="col-2">
-    <div class="Ellipse" data-aos="fade-down">
+    <div class="Ellipse" data-aos="fade-down" data-aos-duration="1500">
      <img src="@/assets/img/rebeca.png" width="300" height="200"   alt="">
     </div>
     <div class="Rectangle" data-aos="fade-right">
@@ -16,7 +16,7 @@
 
    <div class="col-2">
     
-    <div class="Ellipse" data-aos="fade-down">
+    <div class="Ellipse" data-aos="fade-down" data-aos-duration="1600">
      <img src="@/assets/img/eu.png" width="200" height="200"   alt="">
 
     </div>
@@ -30,21 +30,21 @@
   </div>
 
    <div class="col-2">
-    <div class="Ellipse" data-aos="fade-down">
+    <div class="Ellipse" data-aos="fade-down" data-aos-duration="1700">
      <img src="@/assets/img/sthaner.png" width="300" height="200"   alt="">
 
     </div>
     <div id="Rectangle-13" class="Rectangle" data-aos="fade-up">
 
      <h2>Sthaner Souza</h2>
-     <p>Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
+     <p class="py-4">Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
 
     </div>
 
    </div>
 
    <div class="col-2">
-    <div class="Ellipse" data-aos="fade-down">
+    <div class="Ellipse" data-aos="fade-down" data-aos-duration="1800">
      <img src="@/assets/img/theodoro.png" width="300" height="200"   alt="">
     </div>
     <div  class="Rectangle" data-aos="fade-left">
@@ -55,7 +55,6 @@
     </div>
    </div>
   </div>
-  
   </div>
 </template>
 
