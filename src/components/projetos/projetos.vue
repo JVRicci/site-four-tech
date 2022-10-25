@@ -1,6 +1,6 @@
 <template>
  <div id="projeto-div">
- 
+  
   <div class="row mb-4" data-aos="zoom-in" data-aos-duration="1500">
    <h1  >Em quais tipos de projetos também podemos te ajudar?</h1>
    <img src="" alt="">

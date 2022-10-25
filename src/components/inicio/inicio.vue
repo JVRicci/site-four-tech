@@ -4,7 +4,7 @@
     <div id="title">
       <img src="@/assets/img/logo.png" id="logo" >
       <h1>Four Tech</h1>
-      <p>Uma equipe dedicada a você! </p>
+      <p>Uma equipe dedicada a você!</p>
 
     </div>
     <div id="topo-inf-div">
