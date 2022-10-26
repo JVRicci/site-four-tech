@@ -4,9 +4,12 @@ import App from './App.vue'
 import VueScrollReveal from 'vue-scroll-reveal';
 
 import AOS from 'aos'
+import emailjs from 'emailjs-com';
 import 'aos/dist/aos.css'
 
+
 AOS.init()
+emailjs.init()
 
 createApp(App).mount('#app')
 

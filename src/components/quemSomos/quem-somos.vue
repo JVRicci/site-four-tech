@@ -6,7 +6,7 @@
     <div class="Ellipse" data-aos="fade-down" data-aos-duration="1500">
      <img src="@/assets/img/rebeca.png" width="300" height="200"   alt="">
     </div>
-    <div class="Rectangle" data-aos="fade-right">
+    <div class="Rectangle" data-aos="zoom-in" data-aos-duration="1500">
     <h2>Rebeca Helena Pantano C. de Lima</h2>
     <p>Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
 
@@ -20,7 +20,7 @@
      <img src="@/assets/img/eu.png" width="200" height="200"   alt="">
 
     </div>
-   <div  class="Rectangle" data-aos="fade-up">
+   <div  class="Rectangle" data-aos="zoom-in" data-aos-duration="1500">
 
     <h2>João Vitor de Souza Ricci</h2>
     <p>Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
@@ -34,7 +34,7 @@
      <img src="@/assets/img/sthaner.png" width="300" height="200"   alt="">
 
     </div>
-    <div id="Rectangle-13" class="Rectangle" data-aos="fade-up">
+    <div id="Rectangle-13" class="Rectangle" data-aos="zoom-in" data-aos-duration="1500">
 
      <h2>Sthaner Souza</h2>
      <p class="py-4">Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
@@ -47,7 +47,7 @@
     <div class="Ellipse" data-aos="fade-down" data-aos-duration="1800">
      <img src="@/assets/img/theodoro.png" width="300" height="200"   alt="">
     </div>
-    <div  class="Rectangle" data-aos="fade-left">
+    <div  class="Rectangle" data-aos="zoom-in" data-aos-duration="1500">
 
      <h2>Fabricio Rafael Teodoro</h2>
      <p>Cras vitae maximus nunc, vitae rutrum ligula. Etiam ac porta lectus. Praesent eget pretium nulla, vitae auctor enim. </p>
